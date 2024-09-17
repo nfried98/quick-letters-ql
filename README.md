@@ -1,1 +1,1 @@
-# quick-letters-ql
+# Quick Letters (Q.L.)
