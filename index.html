@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Letters</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://codehs.com/static/chs-js-lib/chs.js"></script>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
         canvas {
             border: 1px solid black;
+            display: inline-block;
+            vertical-align: top;
+        }
+        pre {
+            border: 1px solid black;
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            background-color: #F5F5F5;
         }
     </style>
 </head>
 <body>
-    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <h1>Quick Letters</h1>
+    <canvas width="400" height="500" class="codehs-editor-canvas"></canvas>
+    <pre id="console"></pre>
     <script src="default.js"></script>
 </body>
 </html>
