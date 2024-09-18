@@ -1,3 +1,10 @@
+window.onload = function() {
+    // Your code goes here
+    if (typeof start === 'function') {
+        start();
+    }
+};
+
 var currentLetter = Randomizer.nextInt(1,26);
 var score = 0;
 var time = 30;
@@ -79,6 +86,7 @@ var gamemode = 0;
    2 - QWERTY
    3 - 0-9
 */
+
 function start(){
     add(line);
     add(skyBG);
