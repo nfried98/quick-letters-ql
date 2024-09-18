@@ -5,6 +5,12 @@ window.onload = function() {
     }
 };
 
+var Randomizer = {
+    nextInt: function(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+};
+
 var currentLetter = Randomizer.nextInt(1,26);
 var score = 0;
 var time = 30;
